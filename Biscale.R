@@ -5,7 +5,7 @@ library(biscale)
 library(tidyverse)
 
 # Function to export all palettes in wide format
-export_all_biscale_palettes <- function(output_path = "C:/Users/User/Documents/Biscale_colors.csv",
+export_all_biscale_palettes <- function(output_path = "C:/Users/.../..../Biscale_colors.csv",
                                         dim = 3,
                                         preview = TRUE) {
   
@@ -226,4 +226,4 @@ export_selected_palettes <- function(palette_names,
 # )
 
 cat("\n\n✓ Script completed successfully!\n")
-cat("Main output file: C:/Users/User/Documents/Biscale_colors.csv\n")
+cat("Main output file: C:/Users/..../..../Biscale_colors.csv\n")
